@@ -1,0 +1,27 @@
+﻿<Window x:Class="Empleados_23CV.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Empleados_23CV"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Label Content="Empleado" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Height="37" Width="204" FontWeight="Bold" FontSize="20"/>
+        <Label Content="Nombre" HorizontalAlignment="Left" Margin="27,74,0,0" VerticalAlignment="Top"/>
+        <Label Content="Apellido" HorizontalAlignment="Left" Margin="27,126,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNombre" HorizontalAlignment="Left" Margin="27,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="25"/>
+        <TextBox x:Name="txtApedillo" HorizontalAlignment="Left" Margin="27,153,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="25"/>
+        <Label Content="Correo" HorizontalAlignment="Left" Margin="27,179,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtCorreo" HorizontalAlignment="Left" Margin="27,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="25"/>
+        <Label Content="Fecha Ingreso" HorizontalAlignment="Left" Margin="27,234,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtFecha" HorizontalAlignment="Left" Margin="27,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="25"/>
+        <Label Content="Id" HorizontalAlignment="Left" Margin="27,292,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId" HorizontalAlignment="Left" Margin="27,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" Height="25"/>
+        <Button x:Name="Btn_Ver" Content="Ver" Background="LightBlue" HorizontalAlignment="Left" Margin="40,360,0,0" VerticalAlignment="Top" Height="25" Width="106" Click="Btn_Ver_Click"/>
+        <Button x:Name="Btn_Agrega" Content="Agregar" Background="LightGreen" HorizontalAlignment="Left" Margin="200,360,0,0" VerticalAlignment="Top" Height="25" Width="106" Click="Btn_Agrega_Click"/>
+        <Button x:Name="Btn_Update" Content="Editar" Background="Yellow" HorizontalAlignment="Left" Margin="40,396,0,0" VerticalAlignment="Top" Height="25" Width="106"/>
+        <Button x:Name="Btn_Delete" Content="Eliminar" Background="LightPink" HorizontalAlignment="Left" Margin="200,396,0,0" VerticalAlignment="Top" Height="25" Width="106"/>
+
+    </Grid>
+</Window>
